@@ -1,0 +1,12 @@
+body {
+  font-family: sans-serif;
+  background: #f0f0f0;
+  padding: 40px;
+}
+h1 {
+  color: darkslategray;
+}
+a {
+  text-decoration: none;
+  color: steelblue;
+}
