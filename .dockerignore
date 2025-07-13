@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+
+# Git
+.git
+.gitignore
+
+# Логи
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Секреты
+.env
+*.env
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# ОС
+.DS_Store
+Thumbs.db
