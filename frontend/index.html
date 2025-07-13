@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Mini Stack</title>
+</head>
+<body>
+  <h1>Фронт работает</h1>
+  <div id="api"></div>
+
+  <script>
+    fetch("/api/hello")
+      .then(res => res.text())
+      .then(data => document.getElementById("api").innerText = data)
+      .catch(err => console.error(err));
+  </script>
+</body>
+</html>
