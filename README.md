@@ -1,5 +1,5 @@
 # docker-nginx-site
-
+# Фикс запуска CI
 ⚙️ Мини-инфраструктура из 3 контейнеров (frontend + backend + PostgreSQL + nginx) на Docker Compose.
 
 ## 🔧 Запуск
